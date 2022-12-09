@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<odoo>
+
+ <menuitem id='menu_employee' name='Employee'  sequence="70"/>
+    
+    <act_window id="action_employee_department"
+      name="Employee Department"
+      res_model="employee.department"
+      view_mode="tree,form" />
+    
+    <menuitem id="menu_employee_department"
+      name="Department"
+      parent='menu_employee'
+      sequence="3"
+      action="action_employee_department" />
+
+    
+    <act_window id="action_employee_division"
+      name="Employee Division"
+      res_model="employee.division"
+      view_mode="tree,form" />
+    
+    <menuitem id="menu_employee_division"
+      name="Division"
+      parent='menu_employee'
+      sequence="4"
+      action="action_employee_division" />
+
+    
+    <act_window id="action_employee_hospitalhub"
+      name="Employee Hospital Hub"
+      res_model="employee.hospitalhub"
+      view_mode="tree,form" />
+    
+    <menuitem id="menu_employee_hospitalhub"
+      name="Hospital Hub"
+      parent='menu_employee'
+      sequence="7"
+      action="action_employee_hospitalhub" />
+
+    
+    <act_window id="action_employee_jobs"
+      name="Employee Jobs Title"
+      res_model="employee.jobs"
+      view_mode="tree,form" />
+    
+    <menuitem id="menu_employee_jobs"
+      name="Jobs Title"
+      parent='menu_employee'
+      sequence="2"
+      action="action_employee_jobs" />
+
+    
+    <act_window id="action_employee_location"
+      name="Employee Location"
+      res_model="employee.location"
+      view_mode="tree,form" />
+    
+    <menuitem id="menu_employee_location"
+      name="Location"
+      parent='menu_employee'
+      sequence="5"
+      action="action_employee_location" />
+
+    
+    <act_window id="action_employee_person"
+      name="Employee Person"
+      res_model="employee.person"
+      view_mode="tree,form" />
+    
+    <menuitem id="menu_employee_person"
+      name="Person"
+      parent='menu_employee'
+      sequence="1"
+      action="action_employee_person" />
+
+    
+    <act_window id="action_employee_tier"
+      name="Employee Tier"
+      res_model="employee.tier"
+      view_mode="tree,form" />
+    
+    <menuitem id="menu_employee_tier"
+      name="Tier"
+      parent='menu_employee'
+      sequence="6"
+      action="action_employee_tier" />
+</odoo>

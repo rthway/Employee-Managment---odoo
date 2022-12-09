@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<odoo>
+  <record id="view_form_employee_department" model="ir.ui.view">
+    <field name="name">Employee Department</field>
+    <field name="model">employee.department</field>
+    <field name="arch" type="xml">
+      <form string="Employee Department">
+        <group>
+          <field name="department"/>
+          <field name="note"/>
+        </group>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_form_employee_division" model="ir.ui.view">
+    <field name="name">Employee Division</field>
+    <field name="model">employee.division</field>
+    <field name="arch" type="xml">
+      <form string="Employee Division">
+        <group>
+          <field name="division"/>
+          <field name="note"/>
+        </group>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_form_employee_hospitalhub" model="ir.ui.view">
+    <field name="name">Employee Hosspital Hub</field>
+    <field name="model">employee.hospitalhub</field>
+    <field name="arch" type="xml">
+      <form string="Employee Hospital Hub">
+        <group>
+          <field name="hospitalhub"/>
+          <field name="note"/>
+        </group>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_form_employee_jobs" model="ir.ui.view">
+    <field name="name">Employee Jobs</field>
+    <field name="model">employee.jobs</field>
+    <field name="arch" type="xml">
+      <form string="Employee jobs Title">
+        <group>
+          <field name="jobs_title"/>
+          <field name="note"/>
+        </group>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_form_employee_location" model="ir.ui.view">
+    <field name="name">Employee Location</field>
+    <field name="model">employee.location</field>
+    <field name="arch" type="xml">
+      <form string="Employee Location">
+        <group>
+          <field name="location"/>
+          <field name="note"/>
+        </group>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_form_employee_person" model="ir.ui.view">
+    <field name="name">Employee Person</field>
+    <field name="model">employee.person</field>
+    <field name="arch" type="xml">
+      <form string="Employee Location">
+        <group>
+          <field name="name"/>
+          <field name="age"/>
+          <field name="gender"/>
+          <field name="address"/>
+          <field name="email"/>
+          <field name="phone"/>
+          <field name="note"/>
+        </group>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_form_employee_tier" model="ir.ui.view">
+    <field name="name">Employee Tier</field>
+    <field name="model">employee.tier</field>
+    <field name="arch" type="xml">
+      <form string="Employee Tier">
+        <group>
+          <field name="tier"/>
+          <field name="note"/>
+        </group>
+      </form>
+    </field>
+  </record>
+
+</odoo>
