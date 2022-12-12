@@ -13,7 +13,18 @@
       parent='menu_employee'
       sequence="3"
       action="action_employee_department" />
+
+    <act_window id="action_employee_details"
+      name="Employee Details"
+      res_model="employee.details"
+      view_mode="tree,form" />
     
+    <menuitem id="menu_employee_details"
+      name="Employee Details"
+      parent='menu_employee'
+      sequence="8"
+      action="action_employee_details" /> 
+
     <act_window id="action_employee_division"
       name="Employee Division"
       res_model="employee.division"

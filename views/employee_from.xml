@@ -13,6 +13,22 @@
     </field>
   </record>
 
+  
+    <record id="view_form_employee_details" model="ir.ui.view">
+    <field name="name">Employee Details</field>
+    <field name="model">employee.details</field>
+    <field name="arch" type="xml">
+      <form string="Employee Details">
+        <group>
+          <field name="person"/>
+          <field name="hire_date"/>
+          <field name="resign_date"/>
+        </group>
+      </form>
+    </field>
+  </record>
+  
+
   <record id="view_form_employee_division" model="ir.ui.view">
     <field name="name">Employee Division</field>
     <field name="model">employee.division</field>
