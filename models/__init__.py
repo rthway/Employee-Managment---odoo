@@ -1,1 +1,1 @@
-from . import department, division, hospital_hub, job_titles, location, person, tier
+from . import department, division, hospital_hub, job_titles, location, person, tier, employee_details

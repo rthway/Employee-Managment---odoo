@@ -13,7 +13,6 @@
       parent='menu_employee'
       sequence="3"
       action="action_employee_department" />
-
     
     <act_window id="action_employee_division"
       name="Employee Division"

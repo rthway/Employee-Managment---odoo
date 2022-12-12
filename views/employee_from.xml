@@ -83,6 +83,22 @@
     </field>
   </record>
 
+
+  <record id="view_tree_employee_person" model="ir.ui.view">
+    <field name="name">Employee Person</field>
+    <field name="model">employee.person</field>
+    <field name="arch" type="xml">
+      <tree string="Employee personal info">
+          <field name="name"/>
+          <field name="age"/>
+          <field name="gender"/>
+          <field name="address"/>
+          <field name="email"/>
+          <field name="phone"/>
+          <field name="note"/>
+      </tree>
+    </field>
+  </record>
   <record id="view_form_employee_tier" model="ir.ui.view">
     <field name="name">Employee Tier</field>
     <field name="model">employee.tier</field>
